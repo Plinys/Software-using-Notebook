@@ -14,7 +14,7 @@
 ### 升级包
   - pip install --upgrage/-U package_name
 ### 查询可升级的包
-  - pip list -o
+  - pip list -o/--outdate
 ### 导出包
   - pip freeze requiremwnts.txt
 ### 打包包
