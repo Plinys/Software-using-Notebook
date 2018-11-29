@@ -23,6 +23,7 @@ conda remove --name env_name --all
   - conda install package_name
 ### 更新包
   - conda update paackage_name
+  - conda update --all
 ### 删除包
   - conda remove package_name
 ### 移除无用的安装失败的包及缓存
