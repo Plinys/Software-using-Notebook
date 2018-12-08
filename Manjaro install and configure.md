@@ -30,7 +30,7 @@
   - sudo pacman -S archlinuxcn-keyring
 ## 安装搜狗拼音
   - sudo pacman -S fcitx-im
-  -`sudo pacman -S fcitx-configtool
+  - sudo pacman -S fcitx-configtool
   - sudo pacman -S fcitx-sogoupinyin
   - 需要配置输入法配置文件，重启后生效
   - sudo nano ~/.xprofile
