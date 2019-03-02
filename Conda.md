@@ -21,10 +21,19 @@ conda remove --name env_name --all
   - conda list
 ### 安装包
   - conda install package_name
+  - conda install pachage_name=version
 ### 更新包
-  - conda update paackage_name
+  - conda update package_name
+  - conda update package_name=version
   - conda update --all
 ### 删除包
   - conda remove package_name
+### 搜索包
+  - conda search package_name
+### 指定包来源
+  - conda --channel/-C url package_name
+  - https://conda.anaconda.org/menpo
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
 ### 移除无用的安装失败的包及缓存
   - conda clean --all
