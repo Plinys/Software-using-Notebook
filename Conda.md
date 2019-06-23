@@ -1,3 +1,7 @@
+## 配置
+### 添加镜像
+  - conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 ## 环境管理
 ### 查看环境管理所有命令帮助
   - conda env -h
