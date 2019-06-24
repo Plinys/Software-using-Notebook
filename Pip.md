@@ -16,7 +16,7 @@
 ### 查询可升级的包
   - pip list -o/--outdate
 ### 导出包
-  - pip freeze requiremwnts.txt
+  - pip freeze > requiremwnts.txt
 ### 打包包
   - pip wheel package_name
 ### 遇到利用pip安装报错可尝试
