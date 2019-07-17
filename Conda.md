@@ -1,7 +1,12 @@
 ## 配置
-### 添加镜像
+### 镜像源管理
+#### 添加镜像源
   - conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
   - conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+#### 删除镜像源
+  - conda config --remove channels url
+#### 查看当前通道
+  - conda config --show channels
 ## 环境管理
 ### 查看环境管理所有命令帮助
   - conda env -h
@@ -10,7 +15,7 @@
 ### 列举当前所有环境
   - conda env list
 ### 进入某个环境
-  - activate env_name
+  - conda activate env_name
 ### 退出当前环境
   - deactivate
 ### 复制某个环境
