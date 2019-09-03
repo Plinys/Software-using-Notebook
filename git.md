@@ -6,7 +6,7 @@ sudo apt-get install git
 ~~~
 **Windows**     
 
-打开网址 http://git-scm.com/download/win 下载安装程序，根据提示安装，     
+打开网址 [git下载](http://git-scm.com/download/win)下载安装程序，根据提示安装，     
 在安装过程中建议选择默认编辑器为VScode, 此后便可以在命令行使用命令 "code filename"打开文件
 ## 配置
 ~~~
