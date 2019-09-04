@@ -42,7 +42,7 @@ ssh-keygen 参数说明
 $ git config --global user.name "your_name"
 $ git config --global user.email "your_email"
 
-# 显示当前的git配置
+# 显示当前的git配置~
 $ git config --list
 ~~~
 ## 增加/删除文件
@@ -64,4 +64,15 @@ $ git rm --cached [file]
 
 # 改名文件，并将记入暂存区
 $ git mv [file-original] [file-renames]
+~~~
+## 代码提交
+~~~
+# 提交暂存区到仓库区
+$ git commit -m [message]
+
+# 提交暂存区的指定文件到仓库区
+$ git commit [file1] [file2] ... -m [message]
+
+# 提交时显示所有的diff信息
+$ git commit -v
 ~~~
