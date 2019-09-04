@@ -35,6 +35,7 @@ ssh-keygen 参数说明
 # 添加私钥到ssh-agent
     ssh-add ~/.ssh/github_id_rsa
 ~~~
+[如何自启动ssh-agent](https://help.github.com/cn/articles/working-with-ssh-key-passphrases)
 
 ## 配置
 ~~~
