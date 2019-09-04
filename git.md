@@ -31,9 +31,9 @@ ssh-keygen 参数说明
 
 ~~~
 # 先在git bash 中后台启动ssh-agent
-    eval $(ssh-agent -s)
+    eval "$(ssh-agent -s)"
 # 添加私钥到ssh-agent
-    ssh-add ~./ssh/github_id_rsa
+    ssh-add ~/.ssh/github_id_rsa
 ~~~
 
 ## 配置
