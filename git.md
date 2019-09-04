@@ -42,8 +42,11 @@ ssh-keygen 参数说明
 $ git config --global user.name "your_name"
 $ git config --global user.email "your_email"
 
-# 显示当前的git配置~
+# 显示当前的git配置
 $ git config --list
+
+# 查看某一项配置
+$ git config [key]
 ~~~
 ## 增加/删除文件
 ~~~
