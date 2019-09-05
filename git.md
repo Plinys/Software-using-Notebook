@@ -80,3 +80,22 @@ $ git commit [file1] [file2] ... -m [message]
 # 提交时显示所有的diff信息
 $ git commit -v
 ~~~
+## 远程操作
+~~~
+# 列出所有远程主机
+$ git remote
+
+# 列出远程主机并查看网址
+$ git remote -v
+
+# 将远程仓库更新取回本地（并不合并）
+$ git fetch <远程主机名> [分支名]
+e: git fetch origin master
+
+# 合并分支
+$ git merge origin/master
+
+# 将远程仓库更新取回并合并
+$ git pull <远程主机名> <远程分支名>:<本地分支名>
+e: git pull origin master
+~~~
