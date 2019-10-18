@@ -22,7 +22,7 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 #### 安装指定版本包
   - pip install package_name==1.1.1
   - pip install "package_name>=1.2"
-  - pip install requirements.txt (批量安装列表）
+  - pip install -r requirements.txt (批量安装列表）
 ### 卸载包
   - pip uninstall package_name
   - pip uninstall requirements.txt (批量卸载列表）
