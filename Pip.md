@@ -27,7 +27,7 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
   - pip uninstall package_name
   - pip uninstall requirements.txt (批量卸载列表）
 ### 升级包
-  - pip install --upgrage/-U package_name
+  - pip install --upgrade/-U package_name
 ### 查询可升级的包
   - pip list -o/--outdate
 ### 导出包
