@@ -115,3 +115,21 @@ glob模式
     $ "?" 问号只匹配一个任意字符
     $ 两个星号 "**" 表示匹配任意中间目录
 ~~~
+
+## 版本回滚
+~~~
+# 回滚到上一次提交的版本
+$ git reset --hard HEAD^
+
+# 回滚到上上次提交的版本
+$ git reset --hard HEAD^^
+
+# 回滚到具体某一版本
+$ git reset --hard commit-id
+
+# 优雅查看提交历史，其中包含commit-id和提交信息
+$ git log --pretty=oneline
+
+# 查看每次提交的命令
+$ git reflog
+~~~
