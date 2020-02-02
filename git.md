@@ -37,6 +37,9 @@ ssh-keygen 参数说明
 ~~~
 [如何自启动ssh-agent](https://help.github.com/cn/articles/working-with-ssh-key-passphrases)
 
+## 验证ssh连接
+    $ ssh -T git@github.com
+
 ## 配置
 ~~~
 # 配置用户信息
