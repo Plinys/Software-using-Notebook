@@ -10,11 +10,9 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 ~~~
 
   Window  
-  在 “C:\User\xx\pip ” 下新建 pip.ini文件，添加如下内容  
-~~~
-[global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-~~~
+  $ pip config set global.index-url 'https://pypi.tuna.tsinghua.edu.cn/simple'
+  $ pip config set global.timeout 120
+  $ pip config set global.trusted-host 'pypi.tuna.tsinghua.edu.cn'
   
 ### 安装包
 #### 安装最新包
