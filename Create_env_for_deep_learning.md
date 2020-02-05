@@ -28,11 +28,12 @@
     $ conda activate [env_name]
 
 ## 4.Install pytorch
-    # Cheack CUDA's version
-    (1) $ nvcc -V 
-    (2) $ cat /usr/local/cuda/version.txt
+    详见[pytorch官网](https://pytorch.org/get-started/locally/)     
+    # Cheack CUDA's version     
+    (1) $ nvcc -V       
+    (2) $ cat /usr/local/cuda/version.txt       
     
-    # Install pytorch use conda
+    # Install pytorch use conda     
     $ conda install pytorch torchvision cudatoolkit=[CUDA's version]
     
 ## 5.Install other packages
