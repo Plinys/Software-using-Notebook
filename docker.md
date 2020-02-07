@@ -9,6 +9,7 @@ $ docker load file
 ### 修改容器时区
 ~~~
 # 在dockerfile中修改（ubuntu有效)
+  先安装tzdata   apt-get install -y tzdata
 $ RUN echo "Asia/Shanghai" > /etc/timezone && \
     dpkg-reconfigure -f noninteractive tzdata
     
@@ -22,6 +23,13 @@ $ 先进入容器：
     echo "Asia/Shanghai" > /etc/timezone
     dpkg-reconfigure -f noninteractive tzdata
 ~~~
+### 通过镜像地址拉取镜像
+~~~
+    以拉取英伟达镜像为例
+    原本： docker pull nvidia/cuda:10.1-base-ubuntu16.04
+    利用镜像通道： docker pull dockerhub.azk8s.cn/nvidia/cuda:10.1-base-ubuntu16.04
+~~~
+
 ~~~
 # 查看当前运行容器 （显示所有容器，包括退出的,加上参数 -a）
 $ docker ps
