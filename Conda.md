@@ -44,5 +44,8 @@ conda remove --name env_name --all
   - https://conda.anaconda.org/menpo
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
   - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+### 本地包安装
+  - conda install package_name 
+  - 安装包要在当前目录下
 ### 移除无用的安装失败的包及缓存
   - conda clean --all
