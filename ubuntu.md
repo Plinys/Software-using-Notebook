@@ -36,3 +36,12 @@ ps -ef | grep sshd
 kill -9 PID 
 /usr/sbin/sshd -D &
 ~~~
+
+Note:
+开启sshd-server后若 sftp-server 连接失败，可采取一下方式解决
+~~~bash
+vi /etc/ssh/sshd_config
+修改 
+Subsystem sftp /usr/lib/openssh/sftp-server 为
+Subsystem sftp internal-sftp
+~~~
